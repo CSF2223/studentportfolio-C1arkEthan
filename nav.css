@@ -1,3 +1,4 @@
+
 /*
 Color Palette
 background color: #200439
@@ -12,6 +13,12 @@ black: #000
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@300;400;600;700&display=swap');
     
+    
+@media (max-width: 800px) {
+    .toggle-button {
+        display: flex;
+    }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -86,20 +93,6 @@ black: #000
     color: #c5b35b;
     display: block;
 }
-
-
-
-
-
-
-
-
-
-@media (max-width: 800px) {
-    .toggle-button {
-        display: flex;
-    }
-
 .navbar-links {
     display: none;
     width: 100%;
@@ -119,7 +112,6 @@ black: #000
     text-align: center;
 }
 
-.navbar-links.active {
+.navbar-links active {
     display: flex;
-}
 }
